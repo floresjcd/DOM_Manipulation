@@ -1,0 +1,40 @@
+/*******************************************************************************
+Turma: ADS3-X
+Nome: Fulano(a) de tal
+Disciplina: Programação Front-End
+Professor: José Carlos Flores
+Data: 01 de Abril de 2025
+Descritivo: Aula-XX - Trabalho X
+********************************************************************************/
+
+/* body {
+  background-color: white;
+  display: grid;
+  height: 100vh;
+  place-items: center;
+} */
+
+table {
+   border-collapse: collapse;
+   width: 50%;
+   margin-top: 20px;
+ }
+ th,
+ td {
+   border: 1px solid black;
+   padding: 8px;
+   text-align: left;
+ }
+ th {
+   background-color: #f2f2f2;
+ }
+
+ .input-container {
+   display: flex; /* Para alinhar label e input na mesma linha */
+   align-items: center; /* Alinha verticalmente ao centro */
+   margin-bottom: 10px; /* Adiciona um espaço abaixo do container */
+ }
+
+ .input-container label {
+   margin-right: 10px; /* Espaço entre o label e o input */
+ }

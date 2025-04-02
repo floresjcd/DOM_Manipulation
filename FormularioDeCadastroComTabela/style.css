@@ -1,0 +1,42 @@
+/*******************************************************************************
+Turma: ADS3-X
+Nome: Fulano(a) de tal
+Disciplina: Programação Front-End
+Professor: José Carlos Flores
+Data: 01 de Abril de 2025
+Descritivo: Aula-XX - Trabalho X
+********************************************************************************/
+body {
+  font-family: sans-serif;
+}
+.form-container {
+  margin-bottom: 20px;
+}
+.form-row {
+  display: flex; /* Alinha label e input na mesma linha */
+  align-items: center; /* Alinha verticalmente ao centro */
+  margin-bottom: 10px; /* Espaço entre as linhas */
+}
+.form-row label {
+  width: 100px; /* Largura fixa para o label */
+  text-align: right; /* Alinha o texto do label à direita */
+  margin-right: 10px; /* Espaço entre o label e o input */
+}
+.form-row input {
+  width: 300px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background-color: #f2f2f2;
+}
